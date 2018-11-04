@@ -25,6 +25,7 @@ alias grhard='git reset --hard'
 
 # Executables
 alias cat=ccat
+alias py=python
 alias hist='history -100'
 alias h='history -100'
 alias sub=sublime
@@ -35,6 +36,8 @@ alias update_aliases='sublime ~/SysConfig/aliases.sh'
 alias source_aliases='source ~/SysConfig/aliases.sh'
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then # Linux specific aliases
+	alias shut='shutdown now'
+	alias restart='shutdown --reboot now'
 
 elif [[ "$OSTYPE" == "darwin"* ]]; then # Mac OSX specific aliases
 	alias shut='sudo shutdown -h now'
