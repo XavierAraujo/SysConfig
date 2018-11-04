@@ -11,3 +11,4 @@ setopt sharehistory
 setopt incappendhistory
 setopt noautomenu
 setopt nomenucomplete
+setopt AUTO_CD # Type 'dir' instead of 'cd dir'
