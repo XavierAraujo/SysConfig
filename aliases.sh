@@ -4,8 +4,12 @@ alias ls='ls -lAGH'
 alias c='clear'
 alias cls='clear'
 alias cl='c && l'
+alias hist='history -100'
+alias h='history -100'
 alias ..='cd ..'
 alias ....="cd ../.."
+alias ......="cd ../../.."
+alias ........="cd ../../../.."
 
 # GIT Aliases
 alias gitl='git log'
@@ -26,12 +30,13 @@ alias grhard='git reset --hard'
 # Executables
 alias cat=ccat
 alias py=python
-alias hist='history -100'
-alias h='history -100'
 alias sub=sublime
 alias json=jsonpp
 
-#
+# Others
+alias source_zshrc='source ~/.zshrc'
+alias source_bashrc='source ~/.bashrc'
+alias sysconfig='cd ~/SysConfig'
 alias update_aliases='sublime ~/SysConfig/aliases.sh'
 alias source_aliases='source ~/SysConfig/aliases.sh'
 
@@ -44,4 +49,5 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then # Mac OSX specific aliases
 	alias restart='sudo shutdown -r now'
 	alias reset="clear && printf '\e[3J'"
 	alias md='macdown'
-fi 
+	alias clear_derived_data_xcode='rm -rf ~/Library/Developer/Xcode/DerivedData/*'
+fi
