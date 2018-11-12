@@ -1,6 +1,6 @@
 # Generic Aliases
-alias l='ls -lAGH'
-alias ls='ls -lAGH'
+alias l='ls -lAGHh'
+alias ls='ls -lAGHh'
 alias c='clear'
 alias cls='clear'
 alias cl='c && l'
