@@ -24,3 +24,6 @@ setopt NOMENUCOMPLETE
 
 # Type 'dir' instead of 'cd dir'
 setopt AUTO_CD 
+
+export GREP_OPTIONS='--color=always'
+export GREP_COLOR='1;35;40'
