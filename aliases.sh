@@ -25,7 +25,8 @@ alias gpush='git push'
 alias gpull='git pull'
 alias gitm='git mv'
 alias gitconflicts='git diff --name-only --diff-filter=U'
-alias grhard='git reset --hard'
+alias gitrh='git reset --hard'
+alias gitrs='git reset --soft'
 
 # Executables
 alias cat=ccat
