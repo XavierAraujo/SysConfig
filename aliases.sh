@@ -37,17 +37,21 @@ alias json=jsonpp
 alias source_zshrc='source ~/.zshrc'
 alias source_bashrc='source ~/.bashrc'
 alias sysconfig='cd ~/SysConfig'
+alias update_sysconfig='sublime ~/SysConfig/*.sh'
 alias update_aliases='sublime ~/SysConfig/aliases.sh'
 alias source_aliases='source ~/SysConfig/aliases.sh'
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then # Linux specific aliases
 	alias shut='shutdown now'
 	alias restart='shutdown --reboot now'
+	alias r='reset'
 
 elif [[ "$OSTYPE" == "darwin"* ]]; then # Mac OSX specific aliases
 	alias shut='sudo shutdown -h now'
 	alias restart='sudo shutdown -r now'
 	alias reset="clear && printf '\e[3J'"
+	alias r=reset
 	alias md='macdown'
 	alias clear_derived_data_xcode='rm -rf ~/Library/Developer/Xcode/DerivedData/*'
+
 fi
