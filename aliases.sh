@@ -31,7 +31,7 @@ alias gitrs='git reset --soft'
 # Executables
 alias cat=ccat
 alias py=python
-alias sub=sublime
+alias sub=subl
 alias json=jsonpp
 
 # Others
