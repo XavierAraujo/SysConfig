@@ -27,6 +27,7 @@ alias gitm='git mv'
 alias gitconflicts='git diff --name-only --diff-filter=U'
 alias gitrh='git reset --hard'
 alias gitrs='git reset --soft'
+alias gith='git --help'
 
 # Executables
 alias cat=ccat
