@@ -34,6 +34,7 @@ alias cat=ccat
 alias py=python
 alias sub=subl
 alias json=jsonpp
+alias vim="vim -c 'startinsert'"
 
 # Others
 alias source_zshrc='source ~/.zshrc'
