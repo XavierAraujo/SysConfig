@@ -17,7 +17,7 @@ alias gits='git status'
 alias gita='git add'
 alias gitr='git rm'
 alias gitc='git commit'
-alias gitca='git commit -a'
+alias gitca='git commit -a -m'
 alias gitd='git diff'
 alias gitdt='git difftool'
 alias gitdtdir='git difftool --dir-diff'
@@ -34,7 +34,6 @@ alias cat=ccat
 alias py=python
 alias sub=subl
 alias json=jsonpp
-alias vim="vim -c 'startinsert'"
 
 # Others
 alias source_zshrc='source ~/.zshrc'
