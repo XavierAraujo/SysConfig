@@ -28,6 +28,8 @@ alias gitconflicts='git diff --name-only --diff-filter=U'
 alias gitrh='git reset --hard'
 alias gitrs='git reset --soft'
 alias gith='git --help'
+alias gitba='git branch -a'
+alias gitbl='git branch -l'
 
 # Executables
 alias cat=ccat
@@ -37,6 +39,7 @@ alias json=jsonpp
 alias vim="vim -c 'startinsert'"
 
 # Others
+alias s='sudo'
 alias source_zshrc='source ~/.zshrc'
 alias source_bashrc='source ~/.bashrc'
 alias sysconfig='cd ~/SysConfig'
