@@ -17,7 +17,7 @@ alias gits='git status'
 alias gita='git add'
 alias gitr='git rm'
 alias gitc='git commit'
-alias gitca='git commit -a -m'
+alias gitca='git commit -a'
 alias gitd='git diff'
 alias gitdt='git difftool'
 alias gitdtdir='git difftool --dir-diff'
@@ -37,6 +37,7 @@ alias py=python
 alias sub=subl
 alias json=jsonpp
 alias vim="vim -c 'startinsert'"
+alias vi="vim -c 'startinsert'"
 
 # Others
 alias s='sudo'
