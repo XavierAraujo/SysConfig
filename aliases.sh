@@ -30,6 +30,9 @@ alias gitrs='git reset --soft'
 alias gith='git --help'
 alias gitba='git branch -a'
 alias gitbl='git branch -l'
+alias gitss='git stash save'
+alias gitsl='git stash list'
+alias gitsa='git stash apply'
 
 # Executables
 alias cat=ccat
@@ -44,8 +47,8 @@ alias s='sudo'
 alias source_zshrc='source ~/.zshrc'
 alias source_bashrc='source ~/.bashrc'
 alias sysconfig='cd ~/SysConfig'
-alias update_sysconfig='sublime ~/SysConfig/*.sh'
-alias update_aliases='sublime ~/SysConfig/aliases.sh'
+alias update_sysconfig='nano ~/SysConfig/*.sh'
+alias update_aliases='nano ~/SysConfig/aliases.sh'
 alias source_aliases='source ~/SysConfig/aliases.sh'
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then # Linux specific aliases
