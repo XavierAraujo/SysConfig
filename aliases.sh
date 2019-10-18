@@ -17,6 +17,7 @@ alias gits='git status'
 alias gita='git add'
 alias gitr='git rm'
 alias gitc='git commit'
+alias gitco='git checkout'
 alias gitca='git commit -a'
 alias gitd='git diff'
 alias gitdt='git difftool'
@@ -29,7 +30,7 @@ alias gitrh='git reset --hard'
 alias gitrs='git reset --soft'
 alias gith='git --help'
 alias gitba='git branch -a'
-alias gitbl='git branch -l'
+alias gitbl='git branch -l | cat'
 alias gitss='git stash save'
 alias gitsl='git stash list'
 alias gitsa='git stash apply'
@@ -65,3 +66,13 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then # Mac OSX specific aliases
 	alias clear_derived_data_xcode='rm -rf ~/Library/Developer/Xcode/DerivedData/*'
 
 fi
+
+#
+#
+#
+
+alias vos='cd /home/xaraujo/Documents/VeniamDev/VeniamOS'
+alias tuning='cd /home/xaraujo/Documents/VeniamDev/Tuning'
+alias vigilant='cd /home/xaraujo/Documents/VeniamDev/vigilant-doodle'
+
+
