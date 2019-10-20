@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 # Generic Aliases
 alias l='ls -lAGHh'
 alias ls='ls -lAGHh'
