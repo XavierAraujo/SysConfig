@@ -70,12 +70,3 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then # Mac OSX specific aliases
 
 fi
 
-#
-#
-#
-
-alias vos='cd /home/xaraujo/Documents/VeniamDev/VeniamOS'
-alias tuning='cd /home/xaraujo/Documents/VeniamDev/Tuning'
-alias vigilant='cd /home/xaraujo/Documents/VeniamDev/vigilant-doodle'
-
-
