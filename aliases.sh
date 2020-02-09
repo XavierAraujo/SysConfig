@@ -15,6 +15,7 @@ alias ........="cd ../../../.."
 
 # GIT Aliases
 alias gitl='git log'
+alias gitl1='git log --oneline'
 alias gits='git status'
 alias gita='git add'
 alias gitr='git rm'
