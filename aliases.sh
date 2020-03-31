@@ -15,6 +15,7 @@ alias ........="cd ../../../.."
 
 # GIT Aliases
 alias gitl='git log'
+alias gitl1='git log --oneline'
 alias gits='git status'
 alias gita='git add'
 alias gitr='git rm'
@@ -33,7 +34,7 @@ alias gitrs='git reset --soft'
 alias gith='git --help'
 alias gitba='git branch -a'
 alias gitbd='git branch -d'
-alias gitbdf='git branch -D'
+alias gitbD='git branch -D'
 alias gitbl='git branch -l | cat'
 alias gitss='git stash save'
 alias gitsl='git stash list'
@@ -71,4 +72,3 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then # Mac OSX specific aliases
 	alias clear_derived_data_xcode='rm -rf ~/Library/Developer/Xcode/DerivedData/*'
 
 fi
-
