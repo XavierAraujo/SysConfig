@@ -1,0 +1,16 @@
+[user]
+	name = Xavier Araújo
+	email = xavier.araujo92@gmail.com
+[diff]
+	tool = meld
+[merge]
+	tool = meld
+[core]
+	editor = vim
+	pager = less -x1,5
+[push]
+	default = current
+[color "status"]
+	changed = red
+	added = green
+	untracked = yellow
