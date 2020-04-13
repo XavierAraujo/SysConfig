@@ -57,6 +57,7 @@ alias update_sysconfig='nano ~/SysConfig/*.sh'
 alias update_aliases='nano ~/SysConfig/aliases.sh'
 alias source_aliases='source ~/SysConfig/aliases.sh'
 alias timestamp="date +%s"
+alias untar="tar -zxvf"
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then # Linux specific aliases
 	alias shut='shutdown now'
