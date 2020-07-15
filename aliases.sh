@@ -1,8 +1,8 @@
 #!/bin/zsh
 
 # Generic Aliases
-alias l='ls -lAGHh'
-alias ls='ls -lAGHh'
+alias l='ls -lAGHh --color=auto'
+alias ls='ls -lAGHh --color=auto'
 alias c='clear'
 alias cls='clear'
 alias cl='c && l'
