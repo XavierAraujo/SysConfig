@@ -6,8 +6,8 @@ alias ls='ls -lAGHh --color=auto'
 alias c='clear'
 alias cls='clear'
 alias cl='c && l'
-alias hist='history -100'
-alias h='history -100'
+alias hist='history -1000'
+alias h='history -1000'
 alias ..='cd ..'
 alias ....="cd ../.."
 alias ......="cd ../../.."
